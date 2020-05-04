@@ -1,0 +1,5 @@
+E:\C\HomeWork2\TrenirovkaSkier\bin\Debug\TrenirovkaSkier.dll
+E:\C\HomeWork2\TrenirovkaSkier\bin\Debug\TrenirovkaSkier.pdb
+E:\C\HomeWork2\TrenirovkaSkier\obj\Debug\TrenirovkaSkier.dll
+E:\C\HomeWork2\TrenirovkaSkier\obj\Debug\TrenirovkaSkier.pdb
+E:\C\HomeWork2\TrenirovkaSkier\obj\Debug\TrenirovkaSkier.csprojAssemblyReference.cache

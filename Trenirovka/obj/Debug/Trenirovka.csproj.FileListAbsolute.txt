@@ -1,0 +1,7 @@
+E:\C\HomeWork2\Trenirovka\bin\Debug\Trenirovka.exe.config
+E:\C\HomeWork2\Trenirovka\bin\Debug\Trenirovka.exe
+E:\C\HomeWork2\Trenirovka\bin\Debug\Trenirovka.pdb
+E:\C\HomeWork2\Trenirovka\obj\Debug\Trenirovka.csprojAssemblyReference.cache
+E:\C\HomeWork2\Trenirovka\obj\Debug\Trenirovka.exe
+E:\C\HomeWork2\Trenirovka\obj\Debug\Trenirovka.pdb
+E:\C\HomeWork2\Trenirovka\obj\Debug\Trenirovka.csproj.CopyComplete
