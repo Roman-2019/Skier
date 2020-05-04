@@ -4,13 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrenirovkaSkier
+namespace TrenirovkaSkierDLL
 {
     public class TrenirovkaSkier
     {
         public double Raschet(double x, double y, double z)
         {
             double result = 1;
+            if (x == 0 || y == 0) 
+            {
+                return 0;
+            }
             for (double i = x; i <= z; i = x + (x + (x / 100) * y))
             {
                 result += 2;

@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TrenirovkaSkier;
+using TrenirovkaSkierDLL;
 
 namespace Trenirovka
 {
     class Program
     {
-       static void Main(string[] args)
+        //private TrenirovkaSkier calculation;
+        static void Main(string[] args)
         {
+            var calculation = new TrenirovkaSkier();
+
             double result;
             string[] skiers = new string[1] { "" };
             int schetchik=0;
@@ -18,6 +21,8 @@ namespace Trenirovka
             double x, y, z;
             Console.WriteLine("Do you want continue? Yes or No");
             Yes = Console.ReadLine();
+
+           
             while (Yes == "Yes" || Yes=="Y" || Yes=="y")
             {
                 Console.WriteLine("Input how many kilometrs skier ran in the first day X:");
@@ -28,7 +33,7 @@ namespace Trenirovka
                     Console.WriteLine("Input correct value X:");
                     vvod_znach = Console.ReadLine();
                 }
-                x=TrenirovkaSkier.Validation(x);
+                calculation.Validation(x);
                 //Validation(x);
                 Console.WriteLine("Input velichiny yvelicheniya probega Y:");
                 vvod_znach = Console.ReadLine();
@@ -38,7 +43,7 @@ namespace Trenirovka
                     Console.WriteLine("Input correct value Y:");
                     vvod_znach = Console.ReadLine();
                 }
-                TrenirovkaSkier.TrenirovkaSkier.Validation(y);
+                calculation.Validation(y);
                 Console.WriteLine("Input granichniy probeg Z:");
                 vvod_znach = Console.ReadLine();
                 while (!double.TryParse(vvod_znach, out z))
@@ -47,11 +52,11 @@ namespace Trenirovka
                     Console.WriteLine("Input correct value Z:");
                     vvod_znach = Console.ReadLine();
                 }
-                TrenirovkaSkier.TrenirovkaSkier.Validation(z);
+                calculation.Validation(z);
                 //Raschet(x, y, z);
                 schetchik++;
                 Array.Resize(ref skiers, schetchik);
-                skiers[schetchik - 1] = "First skier ran "+z+"km at "+ TrenirovkaSkier.TrenirovkaSkier.Raschet(x, y, z) + " days";
+                skiers[schetchik - 1] = "First skier ran "+z+"km at "+ calculation.Raschet(x, y, z) + " days";
                 Console.WriteLine("Do you want continue? Yes or No");
                 Yes = Console.ReadLine();
             }

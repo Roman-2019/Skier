@@ -5,3 +5,12 @@ E:\C\HomeWork2\Trenirovka\obj\Debug\Trenirovka.csprojAssemblyReference.cache
 E:\C\HomeWork2\Trenirovka\obj\Debug\Trenirovka.exe
 E:\C\HomeWork2\Trenirovka\obj\Debug\Trenirovka.pdb
 E:\C\HomeWork2\Trenirovka\obj\Debug\Trenirovka.csproj.CopyComplete
+E:\C\Skier\Trenirovka\obj\Debug\Trenirovka.csprojAssemblyReference.cache
+E:\C\Skier\Trenirovka\obj\Debug\Trenirovka.exe
+E:\C\Skier\Trenirovka\obj\Debug\Trenirovka.pdb
+E:\C\Skier\Trenirovka\bin\Debug\Trenirovka.exe.config
+E:\C\Skier\Trenirovka\bin\Debug\Trenirovka.exe
+E:\C\Skier\Trenirovka\bin\Debug\Trenirovka.pdb
+E:\C\Skier\Trenirovka\bin\Debug\TrenirovkaSkier.dll
+E:\C\Skier\Trenirovka\bin\Debug\TrenirovkaSkier.pdb
+E:\C\Skier\Trenirovka\obj\Debug\Trenirovka.csproj.CopyComplete
